@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stopwatch</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script type="text/javascript" src="./src/script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <br><br><br><br>
+        <div id="display">
+            00:00:00
+        </div>
+
+        <br><br><br><br>
+        <div class="cent">
+            <div class="disp-inline buttons" onclick="startStop()">
+                <i class="fa fa-play fa-5x" aria-hidden="true"></i>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="disp-inline buttons" onclick="pause()">
+                <i class="fa fa-pause fa-5x" aria-hidden="true"></i>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="disp-inline buttons" onclick="reset()">
+                <i class="fa fa-repeat fa-5x" aria-hidden="true"></i>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

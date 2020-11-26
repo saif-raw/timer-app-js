@@ -1,0 +1,36 @@
+.container {
+    height: 300px;
+    width: 100%;
+}
+
+#display {
+    width: 100%;
+    position: center;
+    font-size: 320px;
+    text-align: center;
+    margin: 0px auto;
+    color: #242582;
+}
+
+.cent {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    color: #5adba5;
+    transition: transform 1s;
+}
+
+.buttons:hover {
+    transform: scale(1.3, 1.3);
+    color: #c38d9e;
+}
+
+body {
+    background-color: #e27d60;
+}
+
+.disp-inline {
+    display: inline;
+}
